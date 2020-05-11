@@ -1,2 +1,2 @@
 # public_shinyapps
-Contains shiny code for public consumption
+1. Gene expression folder has shiny code for volcano plot. Input should have 3 columns: first column gene names, second column, fold changes (logged,2) and third column p-values. Code log transforms p-values. p-value cutoff is 0.01 (converted internally to -log10P). Fold cut off is 0.6 (1.5 fold change). Down regulated genes are depicted by red color, upregulated by green color and grey color denotes expression values between -0.6 (-1.5) to 0.6 (1.5). Input file is csv. 
